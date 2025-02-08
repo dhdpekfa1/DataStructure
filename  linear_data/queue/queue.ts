@@ -72,14 +72,14 @@ class TsQueue {
 
 // 테스트
 const qu = new TsQueue(5);
-q.enQueue(10);
-q.enQueue(20);
-q.enQueue(30);
-q.enQueue(40);
-q.enQueue(50);
-q.enQueue(60); // Queue is full
-q.display();
+qu.enQueue(10);
+qu.enQueue(30);
+qu.enQueue(20);
+qu.enQueue(40);
+qu.enQueue(50);
+qu.enQueue(60); // Queue is full
+qu.display();
 
-q.deQueue();
-q.deQueue();
-q.display();
+qu.deQueue();
+qu.deQueue();
+qu.display();
